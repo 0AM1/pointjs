@@ -19,11 +19,12 @@
 	</head>
 	<body ontouchstart="">
 		<script type="importmap">
-			{
-				"imports": {
-					"three": "./js/three.module.js"
-				}
-			}
+  		{
+		    "imports": {
+ 			     "https://cdn.jsdelivr.net/npm/three@v0.171.0/build/three.module.js",
+  			    "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.171.0/examples/jsm/"
+  				  }
+		  }
 		</script>
 		<script type="module">
 			import * as THREE from 'three';
